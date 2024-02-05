@@ -8,7 +8,6 @@ Created on Tue Oct 11 14:53:41 2022
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Max's good code
 data = np.genfromtxt('/Users/harrytabb/Desktop/Uni/Uni Year 3/Labs/Laser Tweezers/Lab Interview Stuff/trapping.csv', dtype = 'float', delimiter = ',', skip_header = 0)
 currents = data[:,0]
 A_values = data[:,1]
@@ -56,7 +55,6 @@ for current in np.unique(currents):
 new_c = np.array(new_c)
 new_c_err = np.array(new_c_err)
 
-#Harrys shit code
 K_B = 1.38 * 10**-23
 T = 300
 
